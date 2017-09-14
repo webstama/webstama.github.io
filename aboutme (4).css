@@ -1,0 +1,81 @@
+body {
+    background-color: firebrick;
+    margin:auto;
+    margin-left:15%;
+    margin-right:15%;
+}
+h2 {
+    color:rgb(110, 50, 130);
+    color:rgba(50, 100, 100, 0.5);
+    text-align: center;
+    font-size: 55px;
+    font-family: Verdana, serif;
+    background-color:rgb(60, 0, 0);
+}
+h1 {
+    color:khaki;
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+    margin-top:0px;
+    padding-top:0px;
+    margin:auto;
+}
+p {
+    color:midnightblue;
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Roboto');
+    line-height:1.5em;
+    font-weight:normal;
+    margin:auto;
+}
+ol {
+    color:navajowhite;
+    font-size: 20px;
+    font-family:Courier, serif;
+    line-height:2em;
+    list-style-type:upper-alpha;
+    font-weight:bold;
+    font-weight:900;
+    margin:auto;
+}
+ul {
+    color:navajowhite;
+    font-size: 20px;
+    font-family:Courier, serif;
+    line-height:2em;
+    list-style-type: square;
+    margin:auto;
+}
+li:hover {
+    font-size:40px;
+    margin:auto;
+}
+img {
+    display:block;
+    margin:auto;
+    border-radius:80%;
+    height:100px;
+    width:100px;
+}
+.header {
+    border: 30px solid;
+    background-color:firebrick;
+    padding: 0px 30px 30px 30px;
+    margin-left:15%;
+    margin-right:15%;
+    margin:auto;
+}
+.topics {
+    list-style-type:none;
+    font-size:40px;
+    padding:0%;
+    text-decoration:underline;
+}
+.list {
+    padding:0%;
+    font-size:40px;
+}
+.information {
+    color:khaki;
+}
