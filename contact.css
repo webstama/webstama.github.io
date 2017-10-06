@@ -1,0 +1,27 @@
+p {
+    font-size:50px;
+    text-align:center;
+    display:block;
+}
+h3 {
+    font-size:100px;
+    text-align:center;
+    display:block;
+}
+h4 {
+    font-size:100px;
+    text-align:center;
+    display:block;
+}
+h5 {
+    font-size:100px;
+    font-weight:bold;
+    text-align:center;
+    display:block;
+}
+body {
+    background-image:url("http://splashmagazine.com/wp-content/uploads/2013/02/Black-Background-Wood-Clean-black-wallpaper-hd.jpg");
+}
+addition {
+    border-width:medium;
+}
