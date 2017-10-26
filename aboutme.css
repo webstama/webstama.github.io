@@ -1,6 +1,6 @@
 
 body {
-   background-color: firebrick;
+   background-image: url(http://www.solidbackgrounds.com/images/2560x1440/2560x1440-up-maroon-solid-color-background.jpg);
    margin:auto;
    margin-left:15%;
    margin-right:15%;
@@ -13,7 +13,7 @@ h2 {
    text-align: center;
    font-size: 55px;
    font-family: Verdana, serif;
-   background-color:rgb(60, 0, 0);
+   background-color:maroon;
 }
 
 
