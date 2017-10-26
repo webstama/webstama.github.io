@@ -2,26 +2,26 @@ p {
     font-size:50px;
     text-align:center;
     display:block;
-    font-family:Times New Roman,cursive;
+    font-family:Arial,cursive;
 }
 h3 {
     font-size:100px;
     text-align:center;
     display:block;
-    font-family:Times New Roman,cursive;
+    font-family:Arial,cursive;
 }
 h4 {
     font-size:100px;
     text-align:center;
     display:block;
-    font-family:Times New Roman,cursive;
+    font-family:Arial,cursive;
 }
 h5 {
     font-size:100px;
     font-weight:bold;
     text-align:center;
     display:block;
-    font-family:Times New Roman,cursive;
+    font-family:Arial,cursive;
 }
 body {
     background-image:url("http://splashmagazine.com/wp-content/uploads/2013/02/Black-Background-Wood-Clean-black-wallpaper-hd.jpg");
@@ -30,8 +30,8 @@ addition {
     border-width:medium;
 }
 h1{
-    font-family:Times New Roman,cursive;
+    font-family:Arial,cursive;
 }
 h2 {
-    font-family:Times New Roman,cursive;
+    font-family:Arial,cursive;
 }
