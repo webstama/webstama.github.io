@@ -105,4 +105,5 @@ img {
     width:100%;
     background-image: url(http://www.wampstore.com/store/image/cache/data/Wamp/Products/Vallejo/khaki-900x900.jpg);
     background-position: center;
+   border-style: solid;
 }
