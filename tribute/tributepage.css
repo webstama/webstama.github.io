@@ -1,0 +1,36 @@
+body {
+    background-image:url("http://www.colorhexa.com/8b0000.png");
+}
+.ul {
+    color:khaki;
+    font-size:25px;
+}
+.ol {
+    color:blue;
+    font-size:25px;
+}
+.NBA {
+    color:black;
+    font-size:25px;
+}
+h2 {
+    border:1px solid black;
+    font-family:Arial;
+    color:red;
+}
+text-primary {
+    color:red;
+}
+text-center {
+    color:red;
+}
+border {
+    color:red;
+    text-align:center;
+}
+h3 {
+    color:black;
+}
+.NBA, .ol, .ul {
+    display:none;
+}
