@@ -4,10 +4,10 @@ $(function(){
     $(".multiply").click(function() {
 
             //INPUT  
-            quantity1 = parseInt($(".quantity1").val());
-            quantity2 = parseInt($(".quantity2").val());
-            quantity3 = parseInt($(".quantity3").val());
-
+            quantity1 = parseInt($(".q1").val());
+            quantity2 = parseInt($(".q2").val());
+            quantity3 = parseInt($(".q3").val());
+            
 
             //CALCULATE  
             var sub = (99.99 * quantity1) + (99.99 * quantity2) + (99.99 * quantity3)
