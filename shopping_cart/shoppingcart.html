@@ -2,10 +2,11 @@
 <html>
 <head>
         <title>Amani Webster</title>
-        <link rel="stylesheet" type="text/css" href="shoppingcart.css">
-        <link rel="stylesheet" type="text/js" href="shoppingcart.js">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+                <link rel="stylesheet" type="text/css" href="shoppingcart.css">
+               <script type="text/javascript" src="shoppingcart.js"></script>
 </head>
 <body>
 <div class="container">
@@ -25,34 +26,19 @@
         <td><img alt="Derrick Rose shoes" height="100" width="100" border="0" src="https://images.champssports.com/is/image/EBFL2/B54131_fr_sc7?hei=1500&wid=1500"></td>
         <td>Derrick Rose Shoes</td>
         <td><span id="price1" class="price1">$99.99</span> </td>
-        <td>
-        <select class="form-control quantity1" name="qty" id="shoe1count">
-             <option id="q1">1</option>
-             <option id="q2">2</option>
-             <option id="q3">3</option>
-          </select> </td>
+        <td><input type="number" id="num1" class="form-control col-4 q1"></td>
       </tr>
       <tr>
         <td><img alt="Derrick Rose shoes" height="100" width="100" border="0" src="https://a248.e.akamai.net/f/248/9086/10h/origin-d5.scene7.com/is/image/sneakerhead/snusa-detail_20-sf?$1120x700$&$img=sneakerhead/adidas-d-rose-4-5-basketball-shoes-g99364-1"></td>
         <td>Derrick Rose Shoes</td>
         <td><span id="price2" class="price2">$99.99</span> </td>
-        <td>
-        <select class="form-control quantity2" name="qty" id="shoe2count">
-             <option value="q1">1</option>
-             <option value="q2">2</option>
-             <option value="q3">3</option>
-          </select> </td>
+        <td><input type="number" id="num2" class="form-control col-4 q2"></td>
       </tr>
       <tr>
         <td><img alt="Derrick Rose shoes" height="100" width="100" border="0" src="https://images.solecollector.com/complex/image/upload/ftvr8mqdwc2uxdfobqio.jpg"></td>
         <td>Derrick Rose Shoes </td>
         <td><span id="price3" class="price3">$99.99</span> </td>
-        <td>
-        <select class="form-control quantity3" name="qty" id="shoe3count">
-             <option value="q1">1</option>
-             <option value="q2">2</option>
-             <option value="q3">3</option>
-          </select> </td>
+        <td><input type="number" id="num3" class="form-control col-4 q3"></td>
       </tr>
     </tbody>
   </table>
@@ -60,8 +46,8 @@
  <div>
     <button class="btn-primary btn col multiply">TOTAL</button>
     </div>
-    <div class="sub" id="sub">Subtotal..</div>
-    <div class="tax" id="tax">Tax..</div>
-    <div class="total" id="total">Total..</div>
+   <div class="row .col-sm-6 money"> Subtotal:<div class="sub"></div></div>
+   <div class="row .col-sm-6 taxs"> Tax:<div class="tax"></div></div>
+   <div class="row .col-sm-6 totals">Total:<div class="total"></div></div>
 </body>
 </html>
