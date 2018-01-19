@@ -1,0 +1,9 @@
+.q1, .q2, .q3, .q1-choice, .q2-choice, .q3-choice{
+    display:none;
+}
+body {
+    background-color:#B22222;
+}
+.q1, .q2, .q3, h1, h3, h5 {
+    color:#F0E68C;
+}
