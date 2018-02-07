@@ -1,4 +1,5 @@
 $(function(){
+  $(function(){
   
   question1();
   
@@ -23,7 +24,6 @@ var question1 = function(){
        
        //UPDATE SIDEBAR
        $(".q1-choice").html("NO").show();
-       //RUN QUESTION 2
        $(".narrative").html("This game is not meant for you then. Carry on.");
     });
 };
@@ -83,8 +83,7 @@ var question4 = function(){
     $(".buttons").append("<button class='btn btn-warning q4-continue>CONTINUE</button>");
     $(".q4-leave").click(function(){
        $(".q4-choice").html("LEAVE").show();
-       //RUN QUESTION 8
-       question8();
+       $(".narrative").html("You have now left the forest successfully with your earning of 10,000 dollars.");
     });
        $(".q4-continue").click(function(){
            $(".q4-choice").html("CONTINUE").show();
@@ -158,4 +157,8 @@ var question9 = function(){
            //RUN QUESTION 12
            question12();
     });
+};
+
+var question10 = function(){
+  $('#theDiv').prepend('<img id="money" src="https://jerrybanfield.com/wp-content/uploads/2014/07/10000-per-month-online.jpg" />')
 };
