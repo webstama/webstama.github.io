@@ -1,5 +1,4 @@
 $(function(){
-  $(function(){
   
   question1();
   
@@ -66,13 +65,13 @@ var question3 = function(q2_choice){
     $(".q3-drink").click(function(){
       $(".q3-choice").html("DRINK").show();
       //Run Question 6
-      question6();
+      question6("DRINK");
     });
     $(".q3-nodrink").click(function(){
        
        $(".q3-choice").html("NOT DRINK").show();
        //RUN QUESTION 7
-        question7();
+        question7("NOT DRINK");
     });
 };
 
@@ -88,7 +87,7 @@ var question4 = function(){
        $(".q4-continue").click(function(){
            $(".q4-choice").html("CONTINUE").show();
            //RUN QUESTION 9
-           question9();
+           question9("CONTINUE");
     });
 };
 
@@ -100,12 +99,12 @@ var question5 = function(){
     $(".q5-celebrate").click(function(){
        $(".q5-choice").html("CELEBRATE").show();
        //RUN QUESTION 10
-       question10();
+       question10("CELEBRATE");
     });
        $(".q5-restart").click(function(){
            $(".q5-choice").html("Restart").show();
            //RUN QUESTION 1
-           question1();
+           question1("RESTART");
     });
 };
 
@@ -116,7 +115,7 @@ var question6 = function(){
    $(".q6-restart").click(function(){
            $(".q6-choice").html("Restart").show();
            //RUN QUESTION 1
-           question1();
+           question1("RESTART");
     });
 };
 
@@ -127,7 +126,7 @@ var question7 = function(){
    $(".q7-restart").click(function(){
            $(".q7-choice").html("Restart").show();
            //RUN QUESTION 1
-           question1();
+           question1("RESTART");
     });
 };
 
@@ -136,9 +135,9 @@ var question8 = function(){
    $(".q8").show();
    $(".buttons").html("<button class='btn btn-primary q8-restart>RESTART</button>");
    $(".q8-restart").click(function(){
-           $(".q8-choice").html("Restart").show();
+           $(":reset");
            //RUN QUESTION 1
-           question1();
+           question1("RESTART");
     });
 };
 
@@ -150,12 +149,12 @@ var question9 = function(){
     $("q9-give").click(function(){
         $("q9-choice").html("Give").show();
         //RUN QUESTION 11
-        question11();
+        question11("GIVE");
     });
     $(".q9-run").click(function(){
            $(".q9-choice").html("Run").show();
            //RUN QUESTION 12
-           question12();
+           question12("RUN");
     });
 };
 
