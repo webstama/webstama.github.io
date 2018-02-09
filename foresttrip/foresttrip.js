@@ -83,11 +83,12 @@ var question4 = function(){
     $(".q4-leave").click(function(){
        $(".q4-choice").html("LEAVE").show();
        $(".narrative").html("You have now left the forest successfully with your earning of 10,000 dollars.");
+       question9("SHOW");
     });
        $(".q4-continue").click(function(){
            $(".q4-choice").html("CONTINUE").show();
            //RUN QUESTION 9
-           question9("CONTINUE");
+           question10("CONTINUE");
     });
 };
 
