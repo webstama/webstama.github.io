@@ -130,7 +130,7 @@ var tableFor = function(activity, journal){
     var table = [0, 0, 0, 0];
 };    
     //next create a for loop to loop through the array argument passed into it; journal for this example. Each entry in the journal represents 1 day. so journal[i] represents 1 day.
-    for (var i = 0; i < journeghl.length; i++){
+    for (var i = 0; i < journaghl.length; i++){
    
         //THIS IS ALL INSIDE THE FOR LOOP
         
@@ -173,7 +173,7 @@ var calculatePhi = function(table){
     //do the phi calculation. Keep in mind the table is [00, 01, 10, 11]. 
     phi = table[3] * table[0];
     phi = phi - (table[2] * table[1]);
-    phi = phi / (table[2] + table[3]) * (table[0] + table[1]) * ()
+    phi = phi / Math.sqrt(table[2] + table[3]) * (table[0] + table[1]) * (table[1] + table[3]) * (table[0] + table[2]);
     
     //return the variable phi
     return phi; 
@@ -255,37 +255,3 @@ var lastCheck = function(){
    }); 
    
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
